@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.has_rdoc      = 'yard'
 
-  spec.add_runtime_dependency "yard", "~> 0.8.0"
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_runtime_dependency "yard"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
 end
